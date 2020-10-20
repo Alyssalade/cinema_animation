@@ -1,0 +1,17 @@
+#video_background{
+background-color: black;
+background-image: url(video/final.mp4);
+background-position: center center ;
+background-size: contain;
+}
+.video-responsive { overflow:hidden; padding-bottom:56.25%; position:relative; height:0;}
+
+.video-responsive iframe { left:0; top:0; height:100%; width:100%; position:absolute;}
+h1
+{
+  text-align: center;
+}
+h1:hover
+{
+  color: red;
+}
