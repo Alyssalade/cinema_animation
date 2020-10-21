@@ -1,19 +1,36 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Rubik:ital,wght@0,400;0,500;1,700&display=swap');
+
+/* font-family: 'Roboto',
+sans-serif;
+font-family: 'Rubik',
+sans-serif; */
+
+
+/* general*/
+
+* {
+    padding: 0;
+    margin: 0
+}
+
 h1 {
     font-family: 'Rubik', sans-serif;
-    font-size: 100px;
+    font-size: 5em;
     text-align: center;
 }
 
 h2 {
     font-family: 'Rubik', sans-serif;
-    font-size: 50px;
+    font-size: 3em;
     text-align: center;
     margin-top: 70px;
 }
 
 h3 {
     font-family: 'Rubik', sans-serif;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 h3.text-cinema {
@@ -50,6 +67,7 @@ p.sous-titre {
     width: 60%;
     margin-bottom: 0.4em;
     display: inline-block;
+    border-radius: 5px;
 }
 
 .affiche {
@@ -70,4 +88,38 @@ p.sous-titre {
     align-items: center;
 }
 
-.button {}
+.button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #9652b3;
+    transition: 0.5s;
+}
+
+.button a {
+    font-style: 'Roboto', Sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.button:hover a {
+    color: #9652b3;
+    transition: 0.5s;
+}
+
+.lightWrapper {
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+.darkWrapper {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
