@@ -23,6 +23,9 @@ p.sous-titre {
     font-size: 35px;
     text-align: center;
 }
+.paragraphe{
+  text-align: center;
+}
 
 #cinema-conteneur {
     display: flex;
