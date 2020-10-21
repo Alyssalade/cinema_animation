@@ -1,13 +1,23 @@
 /*image*/
 
+h2{
+    margin-top: 180px;
+    margin-bottom: 40px;
+}
 .image {
     margin: auto;
     width: 60%;
     margin-bottom: 0.4em;
     display: inline-block;
-    
+    max-width: 60vh ;
+    max-height: auto;
+    display: flex ;
+
 }
 
+#titre{
+    margin-top: 100px;
+}
 #container-image {
     display: flex;
     flex-wrap: wrap;
@@ -25,20 +35,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     
-}
-.log1 {
-    max-width: 60vh ;
-    max-height: auto;
-    display: flex ;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 10px;
-
-}
-.image {
-    max-width: 60vh ;
-    max-height: auto;
-    display: flex ;
 }
 .affiche {
     max-width: 350px;
