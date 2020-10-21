@@ -1,34 +1,31 @@
-
 /*image*/
 
-.ailleurs {
+.image {
     margin: auto;
     width: 60%;
     margin-bottom: 0.4em;
     display: inline-block;
 }
 
+#container-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-#container-image
-{
+#container-image2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#container-image2
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.image {
-    max-width: 350px ;
+
+.affiche {
+    max-width: 350px;
     max-height: 450px;
-    display: flex ;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 10px;
-
 }
 
 .textimg {
@@ -39,4 +36,3 @@
     justify-content: space-around;
     align-items: center;
 }
-    
