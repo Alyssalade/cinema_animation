@@ -1,0 +1,11 @@
+#conteneur-footer{
+  display : flex;
+  flex-wrap: nowrap;;
+  justify-content: space-around;
+}
+
+h2.footer{
+  font-style: ;
+  font-size: 30px;
+  text-align: left;
+}

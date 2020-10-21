@@ -1,48 +1,46 @@
-* {
-    padding: 0;
-    margin: 0
+
+h1 {
+  font-style: ;
+  font-size: 100px;
+  text-align: center;
+}
+h2 {
+  font-style: ;
+  font-size: 50px;
+  text-align: center;
 }
 
 
-/* navbar*/
-
-.navbar {
-    display: inline-flex;
-    background-color: black;
-    width: 100%;
-    height: 3em;
-    position: fixed;
-    z-index: 0;
-    top: 0;
+h3{
+  font-style: ;
+  font-size: 30px;
 }
 
-.menubtn {
-    display: block;
-    justify-content: center;
-    color: white;
-    width: 3em;
-    height: 3em;
+h3.text-cinema{
+  text-align: left;
+}
+
+p.sous-titre{
+  font-size: 35px;
+  text-align: center;
+
 }
 
 
-/* banner */
-
-.fullscreen {
-    min-height: 800px;
-    height: 100vh;
-    position: relative;
-    max-height: 1500px;
-    background-size: cover;
-    overflow: hidden;
+#cinema-conteneur{
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-#fullscreen-video {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 0;
+#cinema-conteneur1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#cinema-conteneur2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
