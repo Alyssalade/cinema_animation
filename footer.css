@@ -1,32 +1,27 @@
-#conteneur-footer{
-  display : flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+h2.footer {
+    font-style: ;
+    font-size: 30px;
+    text-align: left;
 }
 
-h2.footer{
-  font-style: ;
-  font-size: 30px;
-  text-align: left;
+.container-endpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
 }
 
-.plan{
-  display : flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+.plan {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
-#conteneur-acces {
-  display : flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-#conteneur-text {
-  display : flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
+.conteneur-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
