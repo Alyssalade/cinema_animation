@@ -18,7 +18,7 @@ sans-serif;
 
 .fullscreen {
     min-height: 800px;
-    height: 100vh;
+    height: calc(100vh - 60px);
     position: relative;
     max-height: 1500px;
     background-size: cover;
