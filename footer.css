@@ -1,6 +1,6 @@
 #conteneur-footer{
   display : flex;
-  flex-wrap: nowrap;;
+  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
@@ -14,8 +14,19 @@ h2.footer{
   display : flex;
   flex-wrap: nowrap;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
-.element-footer{
-  
+#conteneur-acces {
+  display : flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#conteneur-text {
+  display : flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-around;
 }
