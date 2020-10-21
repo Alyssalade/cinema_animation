@@ -5,19 +5,28 @@
     <title>Cinema Le festival | Animation et effets spéciaux | Bègles</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebarmenu.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="menubtn">
-            <i class="fas fa-bars"></i>
-            <p>MENU</p>
-        </div>
-        <div class="menubtn">
-            <i class="far fa-question-circle"></i>
-            <p>AIDE</p>
-        </div>
+
+
+    <div class="header"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Programmation</a></li>
+            <li><a href="#">Infos pratique</a></li>
+            <li><a href="#">???</a></li>
+            <li><a href="#">???</a></li>
+        </ul>
     </div>
     <div class='fullscreen'>
         <video autoplay id='fullscreen-video' loop muted playsinline>
