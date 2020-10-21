@@ -21,9 +21,25 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+#logo1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.log1 {
+    max-width: 60vh ;
+    max-height: auto;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+
+}
 .image {
-    max-width: 350px ;
-    max-height: 450px;
+    max-width: 60vh ;
+    max-height: auto;
     display: flex ;
     flex-direction: column;
     justify-content: space-around;
