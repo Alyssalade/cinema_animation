@@ -9,3 +9,13 @@ h2.footer{
   font-size: 30px;
   text-align: left;
 }
+
+.plan{
+  display : flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.element-footer{
+  
+}
