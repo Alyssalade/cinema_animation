@@ -37,7 +37,7 @@ body {
 
 .sidebarMenuInner li {
     list-style: none;
-    color: #ffffff;
+    color: #D799F1;
     text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
     padding: 20px;
@@ -52,7 +52,7 @@ body {
 }
 
 .sidebarMenuInner li a {
-    color: #ffffff;
+    color: #D799F1;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
@@ -88,7 +88,7 @@ input[type=checkbox] {
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: #D799F1;
 }
 
 .horizontal {
