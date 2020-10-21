@@ -1,0 +1,36 @@
+
+/*image*/
+
+.ailleurs {
+    margin: auto;
+    width: 20%;
+    margin-bottom: 0.4em;
+    display: inline-block;
+}
+
+
+#container-image
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.image {
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.textimg {
+display: flex;
+flex-direction: column;
+align-content: center;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+
+
+}
+    
