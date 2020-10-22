@@ -1,0 +1,29 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+.text2 {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textcontainer {
+    display: flex;
+    text-align: center;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+
+.back {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
