@@ -1,0 +1,35 @@
+.theme-slider {
+    display: flex;
+}
+
+.theme-slider-box {
+    width: 25%;
+    height: 70vh;
+    transition: .35s;
+    position: relative;
+}
+
+.theme-slider-box img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.theme-slider-box h3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    opacity: 0;
+    transition: .35s;
+    white-space: nowrap;
+}
+
+/* Etat hover */
+.theme-slider-box:hover {
+    width: 70%;
+}
+
+.theme-slider-box:hover h3{
+    opacity: 1;
+}

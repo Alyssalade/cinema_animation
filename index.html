@@ -4,14 +4,15 @@
 <head>
     <title>Cinema Le festival | Animation et effets spéciaux | Bègles</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="banner.css">
-    <link rel="stylesheet" href="sidebarmenu.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="mainevents.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="/styles/banner.css">
+    <link rel="stylesheet" href="/styles/sidebarmenu.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/mainevent.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
 
 </head>
 
@@ -22,9 +23,10 @@
         <div class="header"></div>
         <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
         <label for="openSidebarMenu" class="sidebarIconToggle">
-          <div class="spinner diagonal part-1"></div></div>
-          <div class="spinner horizontal"></div>
-          <div class="spinner diagonal part-2"></div>
+            <div class="spinner diagonal part-1"></div>
+            </div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
         </label>
         <div id="sidebarMenu">
             <ul class="sidebarMenuInner">
@@ -57,8 +59,8 @@
     </header>
     <!-- Main ------------------------------------------------------------------------------------->
     <main>
-    <div class="lightWrapper"> 
-        <h2>Le cinéma</h2>
+        <div class="lightWrapper">
+            <h2>Le cinéma</h2>
             <div class="container">
                 <div class="affiches">
                     <img src="assets/masque.png" alt="Logo Covid-19">
@@ -86,37 +88,37 @@
                         </ul>
                     </div>
 
+                    <div class="cinema">
+                        <h3 class="text-cinema">Accessibilité & Equipements</h3>
+                        <ul>
+                            <li>accès handicapé</li>
+                            <li>3D, images et son numériques</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="cinema-text-container">
                 <div class="cinema">
-                    <h3 class="text-cinema">Accessibilité & Equipements</h3>
+                    <h3 class="text-cinema">Festivales</h3>
                     <ul>
-                        <li>accès handicapé</li>
-                        <li>3D, images et son numériques</li>
+                        <li>festival international du film d’animation “Les nuits magiques”</li>
+                        <li>festival d’animation pour la petite enfance “Les P’tits Cartooneurs”</li>
+                    </ul>
+                </div>
+
+                <div class="cinema">
+                    <h3 class="text-cinema">2 salles</h3>
+                    <ul>
+                        <li>Salle Paul GRIMAULT (290 places)</li>
+                        <li> Salle René LALOUX (78 places)</li>
                     </ul>
                 </div>
             </div>
-            
         </div>
-            <div class="cinema-text-container">
-                    <div class="cinema">
-                        <h3 class="text-cinema">Festivales</h3>
-                        <ul>
-                            <li>festival international du film d’animation “Les nuits magiques”</li>
-                            <li>festival d’animation pour la petite enfance “Les P’tits Cartooneurs”</li>
-                        </ul>
-                    </div>
-
-                    <div class="cinema">
-                        <h3 class="text-cinema">2 salles</h3>
-                        <ul>
-                            <li>Salle Paul GRIMAULT (290 places)</li>
-                            <li> Salle René LALOUX (78 places)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="assets/cinedraw.png" alt="Dessin de la façade du cinéma le festival">
-            </div>
+        <div>
+            <img src="assets/cinedraw.png" alt="Dessin de la façade du cinéma le festival">
+        </div>
         </div>
         <!-- theme du mois ------------------------------------------------------------------------------------->
         <div class="darkWrapper">
@@ -124,7 +126,7 @@
             <p class="sous-titre"> Venez découvrir le merveilleux univers de Tim Buton</p>
             <p class="paragraphe"> Du 11 au 29 novembre 2020 </p>
         </div>
-        <div>
+        <div class="background-items">
             <div>
                 <img src="assets/csouris.png" alt="Dessin de chauve-souris">
             </div>
@@ -134,97 +136,128 @@
         </div>
 
         <div class="theme-slider">
-            <img src="assets/shadow.jpg" alt="Screenshot du film Dark Shadow de Tim Burton">
-            <img src="assets/noce.jpg" alt="Screenshot du film Les Noces funèbres de Tim Burton">
-            <img src="assets/jack.jpg" alt="Screenshot du film L'étrange Noël de Monsieur Jack de Tim Burton">
-            <img src="assets/argent.jpg" alt="Screenshot du film Edward aux Mains d'Argent de Tim Burton">
-        </div>
- <!-- Evenements du mois ------------------------------------------------------------------------------------->
- <div class="lightWrapper">        
-        <h2>Les évènements du mois</h2>
-        <div>
-            <img src="assets/retro.png" alt="Dessin d'un diffuseur de film">
-        </div>
-        <div class="container" id="carousel">
-            <div class="affiche">
-                <img class="image" src="assets/fete-cine.jpg" alt="Fête du cinéma d'animation" />
-                <div class="textimg">
-                    <h3> Fête du cinéma d'animation </h3>
-                    <h4> Du 14 au 31 Octobre </h4>
-                </div>
-
-            <div class="affiche">
-                <img class="image" src="assets/vampire.jpg" alt="Diffusion du film Petit Vampire de Joann Sfar" />
-                <div class="textimg">
-                    <h3> Petit Vampire </h3>
-                    <h4> Séance Halloween le 31 Octobre à 18h30 </h4>
-                </div>
-
-            <div class="affiche">
-                <img class="image" src="assets/totoro.jpg" alt="Diffusion du film Mon Voisin Totoro de Hayao Miyazaki" />
-                <div class="textimg">
-                    <h3> Mon Voisin Totoro </h3>
-                    <h4> Présentation du film par Simon Morgan le 6 Novembre à 21h00  </h4>
-                </div>
+            <div class="theme-slider-box">
+                <img src="assets/shadow.jpg" alt="Screenshot du film Dark Shadow de Tim Burton">
+                <h3>Titre du film 1</h3>
             </div>
-            <div class="affiche">
-                <img class="image" src="assets/close_encounters.jpg" alt="Diffusion du film Close Encounters, Rencontre du Troisième Type, de Steven Spielberg" />
-                <div class="textimg">
-                    <h3> Rencontre du 3ème Type </h3>
-                    <h4> Du 4 au 8 Novembres </h4>
-                </div>
+
+            <div class="theme-slider-box">
+                <img src="assets/noce.jpg" alt="Screenshot du film Les Noces funèbres de Tim Burton">
+                <h3>Titre du film 1</h3>
+            </div>
+            
+            <div class="theme-slider-box">
+                <img src="assets/jack.jpg" alt="Screenshot du film L'étrange Noël de Monsieur Jack de Tim Burton">
+                <h3>Titre du film 1</h3>
+            </div>
+
+            <div class="theme-slider-box">
+                <img src="assets/argent.jpg" alt="Screenshot du film Edward aux Mains d'Argent de Tim Burton">
+                <h3>Titre du film 1</h3>
             </div>
         </div>
- <!-- Programmation ------------------------------------------------------------------------------------->
- <div class="darkWrapper">
+        <!-- Evenements du mois ------------------------------------------------------------------------------------->
+        <div class="lightWrapper">
+            <h2>Les évènements du mois</h2>
 
-        <h2>Les films à l'affiche</h2>
-        <p class="sous-titre"> À ne pas manquer </p>
-        <div>
-            <img src="assets/pop.png" alt="Dessin de Pop Corn">
-        </div>
-        
-        <div class="container">
-            <div class="affiche">
-                <img class="image" src="assets/calamity.jpg" alt="Screenshot du film Calamity de Rémi Chayé" />
-                <div class="textimg">
-                    <h3> Calamity </h3>
-                    <h4> Rémi Chayé </h4>
-                </div>
+            <div>
+                <img src="assets/retro.png" alt="Dessin d'un diffuseur de film">
+            </div>
 
+            <div class="container" id="carousel">
                 <div class="affiche">
-                    <img class="image" src="assets/troll.jpg" alt="Screenshot du film Troll 2 de Walt Dohrn et David P. Smith" />
+                    <img class="image" src="assets/fete-cine.jpg" alt="Fête du cinéma d'animation" />
                     <div class="textimg">
-                        <h3> Troll 2 </h3>
-                        <h4> Walt Dohrn / David P. Smith </h4>
+                        <h3> Fête du cinéma d'animation </h3>
+                        <h4> Du 14 au 31 Octobre </h4>
                     </div>
                 </div>
 
                 <div class="affiche">
-                    <img class="image" src="assets/chouette.jpg" alt="Screenshot du film La Chouette en Toque de Pascale Hecquet" />
+                    <img class="image" src="assets/vampire.jpg"
+                        alt="Diffusion du film Petit Vampire de Joann Sfar" />
                     <div class="textimg">
-                        <h3> La chouette en toque</h3>
-                        <h4> Pascale Hecquet </h4>
+                        <h3> Petit Vampire </h3>
+                        <h4> Séance Halloween le 31 Octobre à 18h30 </h4>
+                    </div>
+                </div>
+
+                <div class="affiche">
+                    <img class="image" src="assets/totoro.jpg"
+                        alt="Diffusion du film Mon Voisin Totoro de Hayao Miyazaki" />
+                    <div class="textimg">
+                        <h3> Mon Voisin Totoro </h3>
+                        <h4> Présentation du film par Simon Morgan le 6 Novembre à 21h00 </h4>
+                    </div>
+                </div>
+
+                <div class="affiche">
+                    <img class="image" src="assets/close_encounters.jpg"
+                        alt="Diffusion du film Close Encounters, Rencontre du Troisième Type, de Steven Spielberg" />
+                    <div class="textimg">
+                        <h3> Rencontre du 3ème Type </h3>
+                        <h4> Du 4 au 8 Novembres </h4>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Programmation ------------------------------------------------------------------------------------->
+        <div class="darkWrapper">
+
+            <h2>Les films à l'affiche</h2>
+            <p class="sous-titre"> À ne pas manquer </p>
+            <div>
+                <img src="assets/pop.png" alt="Dessin de Pop Corn">
+            </div>
+
+            <div class="container">
+                <div class="affiche">
+                    <img class="image" src="assets/calamity.jpg" alt="Screenshot du film Calamity de Rémi Chayé" />
+                    <div class="textimg">
+                        <h3> Calamity </h3>
+                        <h4> Rémi Chayé </h4>
+                    </div>
+
+                    <div class="affiche">
+                        <img class="image" src="assets/troll.jpg"
+                            alt="Screenshot du film Troll 2 de Walt Dohrn et David P. Smith" />
+                        <div class="textimg">
+                            <h3> Troll 2 </h3>
+                            <h4> Walt Dohrn / David P. Smith </h4>
+                        </div>
+                    </div>
+
+                    <div class="affiche">
+                        <img class="image" src="assets/chouette.jpg"
+                            alt="Screenshot du film La Chouette en Toque de Pascale Hecquet" />
+                        <div class="textimg">
+                            <h3> La chouette en toque</h3>
+                            <h4> Pascale Hecquet </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="button">
                 <a href="programmation.html"> Voir la programmation </a>
             </div>
-    <!-- Acces ------------------------------------------------------------------------------------->
-    <div class="lightWrapper">
-        <h2>Accès</h2>
-        <div class="container-endpage">
+        </div>
+        <!-- Acces ------------------------------------------------------------------------------------->
+        <div class="lightWrapper">
+            <h2>Accès</h2>
+            <div class="container-endpage">
                 <div class="plan">
                     <h3> Plan </h3>
-                    <a href="https://www.google.fr/maps/place/Le+Festival/@44.813216,-0.5662737,17z/data=!4m5!3m4!1s0xd5527aac4575fe1:0x7daa99163ab271bf!8m2!3d44.813216!4d-0.564085"><img src="img/map.jpg" alt="Image du plan google map du cinéma"> </a>
+                    <a
+                        href="https://www.google.fr/maps/place/Le+Festival/@44.813216,-0.5662737,17z/data=!4m5!3m4!1s0xd5527aac4575fe1:0x7daa99163ab271bf!8m2!3d44.813216!4d-0.564085"><img
+                            src="img/map.jpg" alt="Image du plan google map du cinéma"> </a>
                 </div>
                 <div class="conteneur-text">
                     <div class="plan">
                         <h3> Plan </h3>
-                        <a href="https://www.google.fr/maps/place/Le+Festival/@44.813216,-0.5662737,17z/data=!4m5!3m4!1s0xd5527aac4575fe1:0x7daa99163ab271bf!8m2!3d44.813216!4d-0.564085"><img src="assets/map.jpg" alt="Image du plan google map du cinéma"> </a>
+                        <a
+                            href="https://www.google.fr/maps/place/Le+Festival/@44.813216,-0.5662737,17z/data=!4m5!3m4!1s0xd5527aac4575fe1:0x7daa99163ab271bf!8m2!3d44.813216!4d-0.564085"><img
+                                src="assets/map.jpg" alt="Image du plan google map du cinéma"> </a>
                         <h3 class="text-cinema"> Se garer </h3>
                         <ul>
                             <li> Parking à proximité </li>
@@ -283,14 +316,14 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-3.3.1.js"></script>
 
-    <script type="text/javascript" src="js/slick/slick.min.js"></script>    
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
     <script type="text/javascript" src="carousel.js"></script>
 
-    <style>   
+    <style>
         .slick-prev:before,
         .slick-next:before {
-            font-family:initial!important;
-            color:red; 
+            font-family: initial !important;
+            color: red;
         }
     </style>
 
