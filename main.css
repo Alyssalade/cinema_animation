@@ -71,3 +71,37 @@ p.sous-titre {
 }
 
 .button {}
+
+#carousel {
+
+    margin-left: 20% ;
+    margin-right: 20%;
+}
+
+#carousel .image {
+
+    width: 100%;
+}
+
+.masque {
+
+
+}
+
+.affiches {
+    
+    max-width: 350px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.affiches img{
+    width:40%
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
