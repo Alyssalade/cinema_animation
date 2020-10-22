@@ -58,66 +58,50 @@
     </header>
     <!-- Main ------------------------------------------------------------------------------------->
     <main>
-        <div class="lightWrapper">
-            <h2>Le cinéma</h2>
-            <div class="container">
-                <div class="affiches">
-                    <img src="assets/masque.png" alt="Logo Covid-19">
-                </div>
-
-                <div class="affiches">
+        <div class="cinema-wrapper lightWrapper">
+            <div class="cinema-header">
+                <img class="cinema-icon" src="assets/masque.png" alt="Logo Covid-19">
+                <div class="cinema-title">
+                    <h2>Le cinéma</h2>
                     <p class="sous-titre">100% cinéma d'animation et effets spéciaux</p>
                     <p class="paragraphe">Labellisé "Art et essai - jeune public"</p>
                     <p class="paragraphe">Parrainé par le réalisateur Michel OCELOT</p>
                 </div>
-
-                <div class="affiches">
-                    <img src="assets/ticket.png" alt="Logo ticket à partir de 5 euros">
-                </div>
+                <img class="cinema-icon" src="assets/ticket.png" alt="Logo ticket à partir de 5 euros">
             </div>
-            <div class="container">
-                <div class="cinema-text-container">
-                    <div class="cinema">
-                        <h3 class="text-cinema"> Organisation</h3>
-                        <ul>
-                            <li>soirées à thème</li>
-                            <li>séances déguisées</li>
-                            <li>anniversaires pour enfants</li>
-                            <li>tournois Mario Kart</li>
-                        </ul>
-                    </div>
-
-                    <div class="cinema">
-                        <h3 class="text-cinema">Accessibilité & Equipements</h3>
-                        <ul>
-                            <li>accès handicapé</li>
-                            <li>3D, images et son numériques</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-            <div class="cinema-text-container">
-                <div class="cinema">
-                    <h3 class="text-cinema">Festivales</h3>
+            <div class="cinema-container">
+                <div class="cinema-paragraph">
+                    <h3 class="text-cinema"> Organisation</h3>
                     <ul>
-                        <li>festival international du film d’animation “Les nuits magiques”</li>
-                        <li>festival d’animation pour la petite enfance “Les P’tits Cartooneurs”</li>
+                        <li>Soirées à thème</li>
+                        <li>Séances déguisées</li>
+                        <li>Anniversaires pour enfants</li>
+                        <li>Tournois Mario Kart</li>
                     </ul>
                 </div>
-
-                <div class="cinema">
+                <div class="cinema-paragraph">
+                    <h3 class="text-cinema">Accessibilité & Equipements</h3>
+                    <ul>
+                        <li>Accès handicapé</li>
+                        <li>3D, images et son numériques</li>
+                    </ul>
+                </div>
+                <div class="cinema-paragraph">
+                    <h3 class="text-cinema">Festivales</h3>
+                    <ul>
+                        <li>Festival international du film d’animation “Les nuits magiques”</li>
+                        <li>Festival d’animation pour la petite enfance “Les P’tits Cartooneurs”</li>
+                    </ul>
+                </div>
+                <div class="cinema-paragraph">
                     <h3 class="text-cinema">2 salles</h3>
                     <ul>
                         <li>Salle Paul GRIMAULT (290 places)</li>
-                        <li> Salle René LALOUX (78 places)</li>
+                        <li>Salle René LALOUX (78 places)</li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div>
-            <img src="assets/cinedraw.png" alt="Dessin de la façade du cinéma le festival">
-        </div>
+            <img class="cinema-decoration" src="assets/cinedraw.png" alt="Dessin de la façade du cinéma le festival">
         </div>
         <!-- theme du mois ------------------------------------------------------------------------------------->
         <div class="darkWrapper">
@@ -126,33 +110,45 @@
             <p class="paragraphe"> Du 11 au 29 novembre 2020 </p>
 
             <div class="background-items">
-                <div>
-                    <img src="assets/csouris.png" alt="Dessin de chauve-souris">
+                <div class="bat">
+                    <img src="assets/bat.png" alt="Dessin de chauve-souris">
                 </div>
                 <div>
-                    <img src="assets/lune.png" alt="Dessin d'un croissant de lune">
+                    <img src="assets/moon.png" alt="Dessin d'un croissant de lune">
                 </div>
             </div>
 
             <div class="theme-slider">
                 <div class="theme-slider-box">
                     <img src="assets/shadow.jpg" alt="Screenshot du film Dark Shadow de Tim Burton">
-                    <h3>Titre du film 1</h3>
+                        <div class="slider-box-description">
+                            <h3>Dark Shadows</h3>
+                            <p> Libéré de son cercueil après y avoir passé plus de deux siècles, un vampire se retrouve à l'air libre en 1972 </br> pour se réapproprier son manoir. </p>
+                        </div>
                 </div>
 
                 <div class="theme-slider-box">
                     <img src="assets/noce.jpg" alt="Screenshot du film Les Noces funèbres de Tim Burton">
-                    <h3>Titre du film 1</h3>
+                        <div class="slider-box-description">
+                            <h3>Les Noces Funèbres</h3>
+                            <p> En quête d'un titre de noblesse, les fortunés Van Dort ont arrangé le mariage de leur fils, Victor, </br> avec Victoria, la fille d'un couple d'aristocrates ruinés. Les jeunes gens se rencontrent pour la première fois </br> lors de la répétition de la cérémonie de leur mariage et, une chance pour eux, se plaisent énormément.</br> Victor, nerveux, ne parvient pas alors à réciter sans hésitation son serment. </p>
+                        </div>
                 </div>
 
                 <div class="theme-slider-box">
                     <img src="assets/jack.jpg" alt="Screenshot du film L'étrange Noël de Monsieur Jack de Tim Burton">
-                    <h3>Titre du film 1</h3>
+                        <div class="slider-box-description">
+                            <h3> L'étrange Noël de Mr Jack</h3>
+                            <p>Jack est le roi des citrouilles de la ville Halloween. Un beau jour, il découvre la ville de Noël et décide de </br> célébrer lui-même cette fête étrange. Il décide tout simplement de kidnapper le Père Noël et de le remplacer </br> par ses amis qui, au contraire du Père Noël, sont terrifiants.</p>
+                        </div>
                 </div>
 
                 <div class="theme-slider-box">
                     <img src="assets/argent.jpg" alt="Screenshot du film Edward aux Mains d'Argent de Tim Burton">
-                    <h3>Titre du film 1</h3>
+                        <div class="slider-box-description">
+                            <h3>Edward aux Mains d'argent</h3>
+                            <p>Dans un château niché au sommet d'une colline vivait un génial inventeur qui créa Edward. Bien </br> que gratifié d'un charme irrésistible, ce dernier n'était pas tout à fait parfait. La mort soudaine de l'inventeur </br> l'avait laissé pourvu de ciseaux acérés en guise de mains. Edward vivait reclus dans l'obscurité jusqu'au jour </br> où la douce demoiselle Avon lui fit goûter aux joies d'un véritable foyer.</p>
+                        </div>
                 </div>
             </div>
         </div>
@@ -257,6 +253,7 @@
                     </ul>
                 </div>
             </div>
+        <img src="assets/voiture.png" alt="Dessin d'une voiture">
         </div>
     </main>
     <!-- Footer ------------------------------------------------------------------------------------->

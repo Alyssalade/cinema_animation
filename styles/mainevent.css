@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.theme-slider-box h3 {
+.theme-slider-box .slider-box-description {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -25,6 +25,16 @@
     white-space: nowrap;
 }
 
+/* .theme-slider-box p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    opacity: 0;
+    transition: .35s;
+    white-space: nowrap;
+} */
+
 
 /* Etat hover */
 
@@ -32,6 +42,6 @@
     width: 70%;
 }
 
-.theme-slider-box:hover h3 {
+.theme-slider-box:hover .slider-box-description {
     opacity: 1;
 }
