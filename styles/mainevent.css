@@ -1,5 +1,6 @@
 .theme-slider {
     display: flex;
+    margin: 100px 0;
 }
 
 .theme-slider-box {
@@ -7,12 +8,21 @@
     height: 70vh;
     transition: .35s;
     position: relative;
+    align-items: center;
 }
 
 .theme-slider-box img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.theme-slider-box:first-child img {
+    border-radius: 5px 0 0 5px;
+}
+
+.theme-slider-box:last-child img {
+    border-radius: 0 5px 5px 0;
 }
 
 .theme-slider-box .slider-box-description {
@@ -24,16 +34,6 @@
     transition: .35s;
     white-space: nowrap;
 }
-
-/* .theme-slider-box p {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    color: #fff;
-    opacity: 0;
-    transition: .35s;
-    white-space: nowrap;
-} */
 
 
 /* Etat hover */

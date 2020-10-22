@@ -38,15 +38,6 @@ li {
     font-size: 1em;
 }
 
-p.sous-titre {
-    font-size: 35px;
-    text-align: center;
-}
-
-.paragraphe {
-    text-align: center;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -140,53 +131,64 @@ p.sous-titre {
 
 /* Main Wrappers */
 
-.lightWrapper {
+.wrapper {
+    padding: 100px;
+    position: relative;
+}
+
+.light {
     background-color: white;
     color: black;
 }
 
-.darkWrapper {
+.dark {
     background-color: black;
     color: white;
 }
 
-
-/* Cinema */
-
-.cinema-wrapper {
-    padding: 100px;
-    position: relative;
-    z-index: -2;
-}
-
-.cinema-header {
+.wrapper-header {
     width: 100%;
     height: auto;
     display: inline-flex;
     align-content: stretch;
+    align-items: middle;
 }
 
-.cinema-icon {
+.wrapper-icon {
     flex: 1;
     max-width: 150px;
     max-height: 150px;
 }
 
-.cinema-title {
+.wrapper-title {
     flex: 3;
 }
 
-.cinema-container {
+.subtitle {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.legend {
+    font-weight: 300;
+    text-align: center;
+}
+
+.wrapper-container {
     padding: 100px;
     display: flex;
     align-content: stretch;
     flex-wrap: wrap;
 }
 
+
+/* Cinema */
+
 .cinema-paragraph {
-    width: 50%;
+    width: 45%;
     height: auto;
     list-style: inside;
+    padding: 5px;
 }
 
 .cinema-decoration {
@@ -195,6 +197,8 @@ p.sous-titre {
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: -1;
     opacity: 0.5;
 }
+
+
+/* Theme du mois */
