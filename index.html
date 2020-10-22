@@ -46,28 +46,39 @@
                 </a>
             </ul>
         </div>
-        <div class="bannerContainer">
-            <div>
-                <video autoplay id='fullscreen-video' loop muted playsinline>
-                    <source src='assets/banner_animation.mp4' type='video/mp4'>
-                </video>
-                <div class="bannerTitle">
-                </div>
-            </div>
-        </div>
     </header>
+    <!-- Banner ------------------------------------------------------------------------------------->
+    <div class="bannerContainer">
+        <div>
+            <video autoplay id='fullscreen-video' loop muted playsinline>
+                <source src='assets/banner_animation.mp4' type='video/mp4'>
+            </video>
+            <div class="overlay">
+            </div>
+            <div class="banner-title">
+                <img src="/assets/logo_cinema.png" alt="Logo du cinéma" />
+                <h1>Cinéma Le Festival</h1>
+                <p><i class="fas fa-arrow-circle-down"></i></p>
+            </div>>
+        </div>
+    </div>
     <!-- Main ------------------------------------------------------------------------------------->
     <main>
+        <!-- Cinema ------------------------------------------------------------------------------------->
         <div class="wrapper light">
             <div class="wrapper-header">
-                <img class="cinema-icon" src="assets/masque.png" alt="Logo Covid-19">
+                <a href="/infos.html">
+                    <img class="cinema-icon" src="assets/masque.png" alt="Logo Covid-19">
+                </a>
                 <div class="wrapper-title">
                     <h2><i class="fas fa-store-alt"></i><br>Le cinéma</h2>
                     <p class="subtitle">100% cinéma d'animation et effets spéciaux</p>
                     <p class="legend">Labellisé "Art et essai - jeune public"</p>
                     <p class="legend">Parrainé par le réalisateur Michel OCELOT</p>
                 </div>
-                <img class="cinema-icon" src="assets/cinq.png" alt="Logo ticket à partir de 5 euros">
+                <a href="#">
+                    <img class="cinema-icon" src="assets/cinq.png" alt="Logo ticket à partir de 5 euros">
+                </a>
             </div>
             <div class="wrapper-container">
                 <div class="cinema-paragraph">
@@ -109,7 +120,7 @@
                 <img class="theme-icon" src="assets/bat.png" alt="Dessin de chauve-souris">
                 <div class="wrapper-title">
                     <h2><i class="fas fa-cloud-moon"></i><br>Fêtez Halloween avec Tim Burton</h2>
-                    <p class="subtitle">Venez découvrir le merveilleux univers de Tim Buton</p>
+                    <p class="subtitle">Venez découvrir le merveilleux univers de Tim Burton</p>
                     <p class="legend">Du 11 au 19 novembre 2020</p>
                 </div>
                 <img class="theme-icon" src="assets/moon.png" alt="Dessin d'un croissant de lune">
@@ -276,7 +287,9 @@
             <div class="footer-element">
                 <h2 class="footer-element-title">Liens utiles</h2>
                 <ul>
-                    <li> Accueil </li>
+                    <a href="#">
+                        <li><i class="fas fa-home"></i> Accueil</li>
+                    </a>
                     <li> Programmaton </li>
                     <li> Tarifs </li>
                     <li> Scolaire </li>

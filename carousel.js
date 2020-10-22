@@ -7,8 +7,8 @@ $(document).ready(function() {
         slidesToScroll: 3,
         // prevArrow: $('.prev'),
         // nextArrow: $('.next'),
-        prevArrow: "<i class='fas fa-angle-left'></i>",
-        nextArrow: "<i class='fas fa-angle-right'></i>",
+        prevArrow: "<i class='fas fa-angle-left arrowleft'></i>",
+        nextArrow: "<i class='fas fa-angle-right arrowright'></i>",
     });
 
 });
