@@ -26,7 +26,8 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(0, 0, 0, 0.90);
+    z-index: 10;
 }
 
 .sidebarMenuInner {

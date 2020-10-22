@@ -1,28 +1,27 @@
 footer {
+    display: flex;
+    flex-direction: column;
     background: black;
     color: white;
     margin: 0;
-    padding: 0;
+    padding: 0 100px;
 }
 
-.container-endpage {
+.footer-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 50px;
+    flex-direction: row;
+    margin: 100px 0;
 }
 
-.plan {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+.footer-element {
+    flex: 1;
 }
 
-.conteneur-text {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
+.footer-element-title {}
+
+.legal-mentions {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    text-align: center;
 }
