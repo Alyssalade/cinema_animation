@@ -300,3 +300,20 @@ li {
     right: 0;
     opacity: 0.5;
 }
+
+.link:hover {
+
+    transform: scale(1.5);
+    transition: transform .5s;
+
+}
+
+.footerlink {
+
+    color: white;
+}
+
+.footerlink:hover {
+
+    color: #C881E6;
+}

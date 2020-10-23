@@ -45,3 +45,10 @@
 .theme-slider-box:hover .slider-box-description {
     opacity: 1;
 }
+
+.link:hover {
+
+    transform: scale(1.5);
+    transition: transform .5s;
+
+}
