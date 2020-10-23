@@ -15,6 +15,10 @@ sans-serif; */
     margin: 0
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 h1 {
     font-family: 'Rubik', sans-serif;
     font-size: 5em;
@@ -31,6 +35,14 @@ h2 {
 h3 {
     font-family: 'Rubik', sans-serif;
     font-size: 2em;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
 }
 
 p,
@@ -39,82 +51,31 @@ li {
     font-size: 1em;
 }
 
-
-/* A VERIFIER */
-
-.container {
+.button-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.image {
-    margin: auto;
-    width: 60%;
-    margin-bottom: 0.4em;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.affiche {
-    max-width: 350px;
-    max-height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 30px;
-}
-
-.textimg {
-    margin: px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#carousel .image {
-    width: 100%;
-}
-
-.affiches {
-    max-width: 350px;
-    max-height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 30px;
-}
-
-.affiches img {
-    width: 40%
-}
-
-::-webkit-scrollbar {
-    display: none;
+    justify-content: center;
 }
 
 .button {
-    height: 40px;
-    width: 150px;
-    border-radius: 20px;
-    background-color: #9652b3;
-    transition: 0.5s;
-}
-
-.button a {
-    font-style: 'Roboto', Sans-serif;
-    color: white;
     text-decoration: none;
+    color: white;
+}
+
+.button-shape {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #C881E6;
+    display: flex;
     transition: 0.5s;
 }
 
-.button:hover {
-    background-color: white;
+.button-shape p {
+    margin: auto;
 }
 
-.button:hover a {
+.button:hover .button-shape {
+    background-color: white;
     color: #9652b3;
     transition: 0.5s;
 }
@@ -159,10 +120,17 @@ li {
     text-align: center;
 }
 
-.wrapper-container {
+.wrapper-container1 {
     padding: 100px;
     display: flex;
     align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.wrapper-container2 {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -230,6 +198,7 @@ li {
 .arrowleft {
     color: #9652b3;
     position: absolute;
+    cursor: pointer;
     left: -3%;
     top: 30%;
     font-size: 3em;
@@ -238,6 +207,7 @@ li {
 .arrowright {
     color: #9652b3;
     position: absolute;
+    cursor: pointer;
     right: -3%;
     top: 30%;
     font-size: 3em;
@@ -248,6 +218,33 @@ li {
     margin-right: 20%;
 }
 
+.container-event {
+    max-width: 350px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.container-event-image {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    width: 60%;
+    margin-bottom: 0.4em;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.container-event-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 /* Programmation */
 
@@ -255,6 +252,86 @@ li {
     flex: 1;
     max-width: 150px;
     max-height: 212px;
+}
+
+.film-container {
+    width: 25%;
+    padding: 0 50px 150px 50px;
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.film-image {
+    width: 100%;
+    position: relative;
+    height: auto;
+    flex: 0;
+}
+
+.film-image::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 3px #9652b3;
+    border-radius: 5px;
+    transform: rotate(0deg);
+    transition: .35s;
+    opacity: 0;
+}
+
+.film-image::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border: solid 3px #C881E6;
+    border-radius: 5px;
+    transform: rotate(0deg);
+    transition: .35s;
+    opacity: 0;
+}
+
+.film-image:hover:before {
+    transform: rotate(3deg);
+    transition: .35s;
+    opacity: 1;
+}
+
+.film-image:hover:after {
+    transform: rotate(-3deg);
+    transition: .35s;
+    opacity: 1;
+}
+
+.film-image img {
+    object-fit: contain;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.film-presentation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex: 1;
+}
+
+.film-title {
+    padding-top: 20px;
+    flex: 1;
+}
+
+.film-description {
+    flex: 0;
 }
 
 
