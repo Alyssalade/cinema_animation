@@ -84,6 +84,31 @@ li {
     transition: 0.5s;
 }
 
+.link {
+    transition: .35s;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    transition: transform .35s;
+}
+
+.image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: .35s;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+    transition: .35s;
+}
+
 
 /* Main Wrappers */
 
@@ -234,7 +259,7 @@ li {
     max-height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: stretch;
     margin: 30px;
 }
 
@@ -363,6 +388,7 @@ li {
 
 .acces-plan {
     height: auto;
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     flex: 2;
@@ -370,14 +396,30 @@ li {
 
 .acces-plan img {
     width: 100%;
+    border-radius: 5px;
     height: auto;
+}
+
+.plan-img {
+    position: relative;
 }
 
 .acces-aside {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-content: stretch;
+    align-items: space-around;
+}
+
+.acces-paragraph {
+    list-style: inside;
+    margin-bottom: 100px;
+}
+
+.acces-plan h3,
+.acces-paragraph h3 {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .acces-decoration {
@@ -389,11 +431,4 @@ li {
     opacity: 0.5;
 }
 
-.link {
-    transition: .35s;
-}
-
-.link:hover {
-    transform: scale(1.1);
-    transition: transform .35s;
-}
+.maplink {}

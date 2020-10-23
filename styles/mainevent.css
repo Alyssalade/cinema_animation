@@ -75,8 +75,3 @@
     opacity: 1;
     cursor: pointer;
 }
-
-.link:hover {
-    transform: scale(1.5);
-    transition: transform .5s;
-}
