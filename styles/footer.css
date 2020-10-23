@@ -10,18 +10,36 @@ footer {
 .footer-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin: 100px 0;
 }
 
-.footer-element {
-    flex: 1;
+.footer-element {}
+
+.footer-element ul {
+    list-style-type: none;
 }
 
-.footer-element-title {}
+.footer-element-title {
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 20px;
+}
 
 .legal-mentions {
     width: 100%;
     height: auto;
     margin: 20px 0;
     text-align: center;
+}
+
+.footerlink {
+    color: #C881E6;
+    text-decoration: none;
+    transition: .35s;
+}
+
+.footerlink:hover {
+    color: white;
+    transition: .35s;
 }
